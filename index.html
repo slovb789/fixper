@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240312232055">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<nav class="header__nav">
+					<img class="header__logo" src="img/icon/logo.svg" alt="logo">
+					<div class="nav__link">
+						<ul>
+							<li><a href="#" data-goto=".online__diagnostic" data-goto-top="100">Диагностика</a></li>
+							<li><a href="#" data-goto=".price__container">Стоимость</a></li>
+							<li><a href="#" data-goto=".team">Мастера</a></li>
+							<li><a href="#" data-goto=".evaluation__container">Отзывы</a></li>
+							<li><a href="#" data-goto=".faq__container">Вопросы</a></li>
+						</ul>
+					</div>
+					<div class="nav__geo">
+						<img src="img/icon/geo_header_icon.svg" alt="geo">
+						<span>Москва</span>
+					</div>
+					<a href="tel: +1231112333" class="nav__call">Позвонить</a>
+				</nav>
+			</div>
+			<div class="header__wrapper">
+				<div class="header__img">
+					<picture><source srcset="img/header/repairman.webp" type="image/webp"><img src="img/header/repairman.png" class="repairman__img" alt="repairman"></picture>
+					<picture><source srcset="img/header/wash.webp" type="image/webp"><img src="img/header/wash.png" class="wash__img" alt="wash"></picture>
+					<picture><source srcset="img/header/graph.webp" type="image/webp"><img src="img/header/graph.png" class="graph__img" alt="graphic"></picture>
+				</div>
+				<div class="header__info">
+					<h1>Ремонт стиральных машин на дому c годовой гарантией</h1>
+					<p><span class="color__text">Отремонтируем на дому</span> или бесплатно завезем и доставим обратно из сервисного центра</p>
+					<a href="tel: +774152122" class="link__call">Заказать звонок</a>
+				</div>
+
+			</div>
+			<div class="get__banner">
+				<div class="get__containder">
+					<div class="get__text">
+						<img src="img/icon/close.svg" alt="">
+						<img src="img/icon/eclipse-green.svg" alt="">
+						<span class="color__text">Мы открыты и принимаем заказы до 21:00,</span> позвоните сейчас и мы сделаем скидку 15%
+					</div>
+					<a href="#" class="color__text">Получить скидку <img src="img/icon/right_arrow.svg" alt=""></a>
+
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="about__container">
+				<div class="about__wrapper">
+					<div class="about__item">
+						<div>
+							<img src="img/icon/about_icon-1.svg" alt="">
+							<p>Фирменные запчасти у мастеров в наличии</p>
+						</div>
+					</div>
+					<div class="about__item">
+						<div>
+							<img src="img/icon/about_icon-2.svg" alt="">
+							<p>Большинство ремонтов делаем за час на дому</p>
+						</div>
+					</div>
+					<div class="about__item">
+						<div>
+							<img src="img/icon/about_icon-3.svg" alt="">
+							<p>Профессиональный инструмент под любую задачу</p>
+						</div>
+					</div>
+					<div class="about__item">
+						<div>
+							<img src="img/icon/about_icon-4.svg" alt="">
+							<p>Квалифицированные и опытные мастера</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="online__diagnostic">
+				<div class="what__problem-tab">
+					<div class="problem__tab-title" data-tab-title>
+						<span class="color__text-problem">Онлайн-диагностика</span>
+						<h3>Какая у вас проблема?</h3>
+						<div class="problem__wrapper-buttons">
+							<button data-tab-buttons type="button" class="problem__button">Не включается</button>
+							<button data-tab-buttons type="button" class="problem__button">Не выключается</button>
+							<button data-tab-buttons type="button" class="problem__button">Не нагревает воду</button>
+							<button data-tab-buttons type="button" class="problem__button">Все работает, но мне скучно и я хочу пообщаться с мастером</button>
+							<button data-tab-buttons type="button" class="problem__button">Не крутится барабан</button>
+							<button data-tab-buttons type="button" class="problem__button">Не работает кнопка включения</button>
+							<button data-tab-buttons type="button" class="problem__button">Не выключается</button>
+							<button data-tab-buttons type="button" class="problem__button">Иная проблема</button>
+							<button data-tab-buttons type="button" class="problem__button">Не крутится барабан</button>
+							<button data-tab-buttons type="button" class="problem__button">Не работает кнопка включения</button>
+						</div>
+						<div class="problem__select-text">
+							<img src="img/icon/warning_icon.svg" alt="">Выберите проблему и узнайте её решение
+						</div>
+					</div>
+					<div class="problem__tab-body">
+						<div data-tab-items id="problem-0" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-1" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-2" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-3" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-4" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-5" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-6" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-7" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-8" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+						<div data-tab-items id="problem-9" class="problem__tab-item hidden">
+							<div class="problem__header">
+								<div class="go__back">
+									<img src="img/problem/arrow_back.svg" alt="arrow-back">Выбрать другую проблему
+								</div>
+								<h3>Вероятней всего:</h3>
+							</div>
+							<div class="problem__body">
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+								<div class="problem__body-item">
+									<svg viewbox="0 0 200 200" class="svg__circle">
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)" />
+										<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464" stroke-linecap="round" stroke-dasharray="280.2 502.4" stroke-dashoffset="-90" />
+										<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700" text-anchor="middle" fill="#444">
+											51%
+										</text>
+									</svg>
+									<div class="problem__text">
+										<h5>Замена фильтра</h5>
+										<div class="problem__price">1 200₽<span class="problem__text-color">+ запчасть от 3500₽</span></div>
+									</div>
+								</div>
+							</div>
+							<a class="problem__link" href="tel:+1234568888">Вызвать мастера с выездом от 45 минут</a>
+						</div>
+					</div>
+				</div>
+				<div class="diagnostic__img">
+					<picture><source srcset="img/problem/wash_problem.webp" type="image/webp"><img src="img/problem/wash_problem.png" class="diagnostic__wash-img" alt=""></picture>
+					<picture><source srcset="img/problem/square_star.webp" type="image/webp"><img src="img/problem/square_star.png" class="diagnostic__star-img" alt=""></picture>
+					<picture><source srcset="img/problem/graph_problem.webp" type="image/webp"><img src="img/problem/graph_problem.png" class="diagnostic__graph-img" alt=""></picture>
+				</div>
+			</div>
+			<div class="price__container">
+				<h2>Стоимость работ</h2>
+				<div data-showmore="items" class="price">
+					<div data-showmore-content="6" class="price__wrapper">
+						<div class="price__showmore-item">
+							<div class="showmore__service">Услуга</div>
+							<div class="showmore__price-parts">Стоимость запчасти</div>
+							<div class="showmore__price-work">Стоимость работ</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Диагностика стиральной машины</div>
+							<div class="showmore__price-parts"></div>
+							<div class="showmore__price-work showmore__text-color">Бесплатно</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Выезд мастера</div>
+							<div class="showmore__price-parts"></div>
+							<div class="showmore__price-work showmore__text-color">Бесплатно</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена помпы</div>
+							<div class="showmore__price-parts">от 8880₽</div>
+							<div class="showmore__price-work">1900₽</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена блока питания</div>
+							<div class="showmore__price-parts">от 750₽</div>
+							<div class="showmore__price-work">900₽</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена подшипников</div>
+							<div class="showmore__price-parts">от 1450₽</div>
+							<div class="showmore__price-work">750₽</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена блока питания</div>
+							<div class="showmore__price-parts">от 750₽</div>
+							<div class="showmore__price-work">900₽</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена подшипников</div>
+							<div class="showmore__price-parts">от 1450₽</div>
+							<div class="showmore__price-work">750₽</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена блока питания</div>
+							<div class="showmore__price-parts">от 750₽</div>
+							<div class="showmore__price-work">900₽</div>
+						</div>
+						<div class="price__showmore-item">
+							<div class="showmore__service">Замена подшипников</div>
+							<div class="showmore__price-parts">от 1450₽</div>
+							<div class="showmore__price-work">750₽</div>
+						</div>
+					</div>
+					<button data-showmore-button type="button" class="showmore__button">
+						<span>Показать все цены <img src="img/icon/back_icon.svg" alt="back"></span>
+						<span>Скрыть</span>
+					</button>
+				</div>
+			</div>
+			<div class="team">
+				<div class="team__container">
+					<p>В нашем штате 37 сотрудников</p>
+					<h3>Мы большая команда профессионалов</h3>
+					<div class="swiper">
+						<div class="team__wrapper swiper-wrapper">
+							<div class="team__item swiper-slide">
+								<picture><source srcset="img/team/worker-1.webp" type="image/webp"><img src="img/team/worker-1.jpeg" alt=""></picture>
+								<div class="team__item-info">
+									<h5>Александр Федулов</h5>
+									<p>Ремонтник</p>
+									<div class="item__work">
+										<div><img src="img/team/done_icon.svg" alt="">398 ремонтных работ</div>
+										<div><img src="img/team/done_icon.svg" alt="">3 года в Fixper</div>
+										<div><img src="img/team/done_icon.svg" alt="">Рейтинг Fixper 4,5</div>
+									</div>
+								</div>
+							</div>
+							<div class="team__item swiper-slide">
+								<picture><source srcset="img/team/worker-2.webp" type="image/webp"><img src="img/team/worker-2.jpeg" alt=""></picture>
+								<div class="team__item-info">
+									<h5>Александр Федулов</h5>
+									<p>Ремонтник</p>
+									<div class="item__work">
+										<div><img src="img/team/done_icon.svg" alt="">398 ремонтных работ</div>
+										<div><img src="img/team/done_icon.svg" alt="">3 года в Fixper</div>
+										<div><img src="img/team/done_icon.svg" alt="">Рейтинг Fixper 4,5</div>
+									</div>
+								</div>
+							</div>
+							<div class="team__item swiper-slide">
+								<picture><source srcset="img/team/worker-3.webp" type="image/webp"><img src="img/team/worker-3.jpeg" alt=""></picture>
+								<div class="team__item-info">
+									<h5>Александр Федулов</h5>
+									<p>Ремонтник</p>
+									<div class="item__work">
+										<div><img src="img/team/done_icon.svg" alt="">398 ремонтных работ</div>
+										<div><img src="img/team/done_icon.svg" alt="">3 года в Fixper</div>
+										<div><img src="img/team/done_icon.svg" alt="">Рейтинг Fixper 4,5</div>
+									</div>
+								</div>
+							</div>
+							<div class="team__item swiper-slide">
+								<picture><source srcset="img/team/worker-4.webp" type="image/webp"><img src="img/team/worker-4.jpeg" alt=""></picture>
+								<div class="team__item-info">
+									<h5>Александр Федулов</h5>
+									<p>Ремонтник</p>
+									<div class="item__work">
+										<div><img src="img/team/done_icon.svg" alt="">398 ремонтных работ</div>
+										<div><img src="img/team/done_icon.svg" alt="">3 года в Fixper</div>
+										<div><img src="img/team/done_icon.svg" alt="">Рейтинг Fixper 4,5</div>
+									</div>
+								</div>
+							</div>
+							<div class="team__item swiper-slide">
+								<picture><source srcset="img/team/worker-5.webp" type="image/webp"><img src="img/team/worker-5.jpeg" alt=""></picture>
+								<div class="team__item-info">
+									<h5>Александр Федулов</h5>
+									<p>Ремонтник</p>
+									<div class="item__work">
+										<div><img src="img/team/done_icon.svg" alt="">398 ремонтных работ</div>
+										<div><img src="img/team/done_icon.svg" alt="">3 года в Fixper</div>
+										<div><img src="img/team/done_icon.svg" alt="">Рейтинг Fixper 4,5</div>
+									</div>
+								</div>
+							</div>
+							<div class="team__item swiper-slide">
+								<picture><source srcset="img/team/worker-6.webp" type="image/webp"><img src="img/team/worker-6.jpeg" alt=""></picture>
+								<div class="team__item-info">
+									<h5>Александр Федулов</h5>
+									<p>Ремонтник</p>
+									<div class="item__work">
+										<div><img src="img/team/done_icon.svg" alt="">398 ремонтных работ</div>
+										<div><img src="img/team/done_icon.svg" alt="">3 года в Fixper</div>
+										<div><img src="img/team/done_icon.svg" alt="">Рейтинг Fixper 4,5</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper__controls">
+							<div class="swiper-pagination __wrapper"></div>
+							<div class="swiper__buttons">
+								<div class="swiper-button-prev">Назад</div>
+								<div class="swiper-button-next">Далее <img src="img/team/right_arrow.svg" alt="right-arrow"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="evaluation__container">
+				<h3>Нас высоко оценивают</h3>
+				<div class="evaluation__swiper">
+					<div class="swiper-wrapper evaluation__wrapper">
+						<div class="swiper-slide evaluation__item">
+							<div class="item__user">
+								<picture><source srcset="img/evaluation/user.webp" type="image/webp"><img src="img/evaluation/user.jpeg" alt="user"></picture>
+								<div class="username__date">
+									<h5>Владимир Завертайлов</h5>
+									<span>15 марта 2021</span>
+								</div>
+							</div>
+							<p>Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN, смогли сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к Вам, ваш клиент.</p>
+						</div>
+						<div class="swiper-slide evaluation__item">
+							<div class="item__user">
+								<picture><source srcset="img/evaluation/user.webp" type="image/webp"><img src="img/evaluation/user.jpeg" alt="user"></picture>
+								<div class="username__date">
+									<h5>Владимир Завертайлов</h5>
+									<span>15 марта 2021</span>
+								</div>
+							</div>
+							<p>Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN, смогли сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к Вам, ваш клиент.</p>
+						</div>
+						<div class="swiper-slide evaluation__item">
+							<div class="item__user">
+								<picture><source srcset="img/evaluation/user.webp" type="image/webp"><img src="img/evaluation/user.jpeg" alt="user"></picture>
+								<div class="username__date">
+									<h5>Владимир Завертайлов</h5>
+									<span>15 марта 2021</span>
+								</div>
+							</div>
+							<p>Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN, смогли сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к Вам, ваш клиент.</p>
+						</div>
+						<div class="swiper-slide evaluation__item">
+							<div class="item__user">
+								<picture><source srcset="img/evaluation/user.webp" type="image/webp"><img src="img/evaluation/user.jpeg" alt="user"></picture>
+								<div class="username__date">
+									<h5>Владимир Завертайлов</h5>
+									<span>15 марта 2021</span>
+								</div>
+							</div>
+							<p>Хочу выразить свою и признательность в решении ремонта стиральной машины Самсунг A600FN, смогли сделать раньше срока и качественно, спасибо большое. Вы лучшие! Всегда буду обращаться к Вам, ваш клиент.</p>
+						</div>
+					</div>
+					<div class="swiper__controls">
+						<div class="swiper-pagination __wrapper"></div>
+						<div class="swiper__buttons">
+							<div class="swiper-button-prev">Назад</div>
+							<div class="swiper-button-next">Далее <img src="img/team/right_arrow.svg" alt="right-arrow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="evaluation__social">
+				<div class="social__container">
+					<div class="social__item">
+						<div class="text__social">
+							<div class="text__social-star">
+								<img src="img/social/star_icon.svg" alt="star"><span>4,5 </span>/ 5.0
+							</div>
+							<span class="eval__span">100+ оценок</span>
+						</div>
+						<img src="img/social/google_logo.svg" alt="google-logo">
+					</div>
+					<div class="social__item">
+						<div class="text__social">
+							<div class="text__social-star">
+								<img src="img/social/star_icon.svg" alt="star"><span>4,8 </span>/ 5.0
+							</div>
+							<span class="eval__span">250+ оценок</span>
+						</div>
+						<img src="img/social/yandex_logo.svg" alt="yandex-logo">
+					</div>
+					<div class="social__item">
+						<div class="text__social">
+							<div class="text__social-star">
+								<img src="img/social/star_icon.svg" alt="star"><span>4,3 </span>/ 5.0
+							</div>
+							<span class="eval__span">10 000+ оценок</span>
+						</div>
+						<img src="img/social/fixcellent_logo.svg" alt="fixcellent-logo">
+					</div>
+				</div>
+			</div>
+			<div class="faq__container">
+				<div class="faq__wrapper">
+					<div class="faq__text">
+						<h3>Часто задаваемые вопросы</h3>
+						<p>Не нашли ответ на свой вопрос? <a href="#">Оставьте заявку</a> и наш специалист свяжется и ответит на ваш вопрос</p>
+					</div>
+					<div class="faq__questions">
+						<div data-spollers class="faq__questions-item">
+							<div class="questions__item">
+								<button data-spoller class="item__title"><span class="title__text">Где почитать отзывы о вас?</span><span class="img__color-eclipse"></span></button>
+								<div class="item__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur consequatur cupiditate et, excepturi expedita fugit id incidunt ipsum labore necessitatibus nisi, nulla numquam optio porro quod, repellendus voluptatem voluptatibus.</div>
+							</div>
+							<div class="questions__item">
+								<button data-spoller class="item__title"><span class="title__text">Сколько времени длится ремонт?</span><span class="img__color-eclipse"></span></button>
+								<div class="item__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores deleniti dolorem eaque est et eum excepturi in iste minus non officia optio porro quisquam, sapiente sequi, tempore veritatis? Odio, sint.</div>
+							</div>
+							<div class="questions__item">
+								<button data-spoller class="item__title"><span class="title__text">Какие марки стиральных машин вы ремонтируете?</span><span class="img__color-eclipse"></span></button>
+								<div class="item__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto, consequatur consequuntur corporis ea eligendi impedit maiores molestias optio provident quam rerum similique tempore veniam vitae! Commodi incidunt optio voluptatum?</div>
+							</div>
+							<div class="questions__item">
+								<button data-spoller class="item__title"><span class="title__text">Я живу в московской области, сможете приехать?</span><span class="img__color-eclipse"></span></button>
+								<div class="item__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolorem enim est et, eum expedita hic illo ipsam laboriosam magni maiores maxime natus officiis, pariatur ratione sequi sint suscipit voluptate!</div>
+							</div>
+							<div class="questions__item">
+								<button data-spoller class="item__title"><span class="title__text">Как производится контроль качества?</span><span class="img__color-eclipse"></span></button>
+								<div class="item__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam, atque corporis debitis dolore doloremque eaque ipsa, magnam molestias necessitatibus officiis quam quas saepe sit sunt unde veniam voluptate voluptates!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="call__master">
+				<div class="call__form">
+					<div class="call__form-text">
+						<h3>Вызов мастера</h3>
+						<p>Оставьте заявку сейчас и получите <span>скидку 15%</span></p>
+					</div>
+					<div class="form__wrapper">
+						<form action="POST">
+							<input type="tel" name="tel" placeholder="Номер телефона">
+							<button type="submit">Заказать звонок</button>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="contacts__container">
+				<picture><source srcset="img/footer/map.webp" type="image/webp"><img src="img/footer/map.jpeg" alt="map"></picture>
+				<div class="contacts__info">
+					<h3>Контактная информация</h3>
+					<div class="contacts__text">
+						<h6>ул. Стрелковая, д. 14 (офис 1)</h6>
+						<p>8:00—21:00 без выходных</p>
+					</div>
+					<div class="contacts__text">
+						<h6>ул. Карла Маркса, д. 33 (диспетчерская)</h6>
+						<p>7:00—23:00 без выходных</p>
+					</div>
+					<a href="mailto:" class="mail__link">iavaisov@gmail.com</a>
+					<a href="" class="call__link">Позвонить</a>
+				</div>
+			</div>
+			<div class="nav__container">
+				<nav class="nav__wrapper">
+					<div class="footer__logo">
+						<img src="img/footer/logo.svg" alt="logo">
+					</div>
+					<div class="nav__menu">
+						<ul>
+							<li class="nav__link"><a href="#" data-goto=".online__diagnostic" data-goto-top="100">Диагностика</a></li>
+							<li class="nav__link"><a href="#" data-goto=".price__container">Стоимость</a></li>
+							<li class="nav__link"><a href="#" data-goto=".team">Мастера</a></li>
+							<li class="nav__link"><a href="#" data-goto=".evaluation__container">Отзывы</a></li>
+							<li class="nav__link"><a href="#" data-goto=".faq__container">Вопросы</a></li>
+							<li class="nav__link"><a href="#">Карта сайта</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="payment__methods">
+				<div class="payment__container">
+					<h6>Способы оплаты:</h6>
+					<div class="methods__item">
+						<div class="methods__img"><img src="img/footer/mir_logo.svg" alt=""></div>
+						<div class="methods__img"><img src="img/footer/mastercard_logo.svg" alt=""></div>
+						<div class="methods__img"><img src="img/footer/visa_logo.svg" alt=""></div>
+						<div class="methods__img"><img src="img/footer/applepay_logo.svg" alt=""></div>
+						<div class="methods__img"><img src="img/footer/googlepay_logo.svg" alt=""></div>
+						<div class="methods__img">
+							<p>Наличные</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright__container">
+				<p>Сервис ремонта бытовой и цифровой техники</p>
+				<p>ЧПТУП «МИКАИЛ» 192007601</p>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20240312232055"></script>
+</body>
+
+</html>

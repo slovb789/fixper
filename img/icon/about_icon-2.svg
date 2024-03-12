@@ -1,0 +1,16 @@
+<svg width="105.000000" height="74.000000" viewBox="0 0 105 74" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Rectangle 784" x="44.398438" y="2.503906" rx="2.344132" width="11.720662" height="9.376530" fill="#A03C7D" fill-opacity="1.000000"/>
+	<rect id="Rectangle 785" x="67.832031" y="8.940430" rx="0.877099" width="5.262593" height="7.016791" transform="rotate(30 67.832031 8.940430)" fill="#A03C7D" fill-opacity="1.000000"/>
+	<path id="Rectangle 786" d="M67.6948 7.63086L73.7085 11.103C74.1279 11.3452 74.2715 11.8818 74.0293 12.3013L72.4253 15.0796L64.8921 10.7305L66.4966 7.95215C66.7388 7.53223 67.2749 7.38867 67.6948 7.63086Z" fill="#A03C7D" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<rect id="Rectangle 787" rx="0.877099" width="5.262593" height="7.016791" transform="matrix(-0.866025 0.5 0.5 0.866025 31.1094 9.21924)" fill="#A03C7D" fill-opacity="1.000000"/>
+	<path id="Rectangle 788" d="M31.2471 7.63086L25.2334 11.103C24.814 11.3452 24.6704 11.8818 24.9126 12.3013L26.5166 15.0796L34.0498 10.7305L32.4453 7.95215C32.2031 7.53223 31.667 7.38867 31.2471 7.63086Z" fill="#A03C7D" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<circle id="Ellipse 79" cx="49.673340" cy="41.768066" r="32.231823" fill="#FFBA4A" fill-opacity="1.000000"/>
+	<circle id="Ellipse 79" cx="49.673340" cy="41.768066" r="29.105062" stroke="#EB5555" stroke-opacity="0.300000" stroke-width="6.253522"/>
+	<path id="Subtract" d="M92 0C92 7.17969 97.8203 13 105 13L105 0L105 0L105 26L105 26L105 13C97.8203 13 92 18.8203 92 26L91.999 26C91.999 18.8208 86.1792 13.0005 79 13L79 13C86.1792 12.9995 91.999 7.1792 91.999 0L92 0Z" clip-rule="evenodd" fill="#EB5555" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Subtract" d="M14.061 50.5586L0 50.5586L0 50.5586L7.03027 50.5586C7.03027 54.4414 3.88281 57.5894 0 57.5894L0 57.5903C3.88135 57.5903 7.02832 60.7363 7.03027 64.6172C7.03223 60.7358 10.1792 57.5903 14.061 57.5903L14.061 64.6196L14.061 64.6196L14.061 50.5586ZM7.03027 50.5591L14.061 50.5591L14.061 57.5898C10.1782 57.5898 7.03027 54.4419 7.03027 50.5591Z" clip-rule="evenodd" fill="#EB5555" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Vector 18" d="M32.6777 42.3545L53.189 42.3545C53.189 42.3545 61.3638 28.6016 67.3145 18.7607" stroke="#A03C7D" stroke-opacity="1.000000" stroke-width="6.253522"/>
+</svg>

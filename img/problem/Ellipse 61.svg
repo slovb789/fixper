@@ -1,0 +1,10 @@
+<svg viewbox="0 0 200 200" class="svg__circle">
+	<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="rgba(47, 47, 47, 0.1)"/>
+	<circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#FFC464"
+			stroke-linecap="round" stroke-dasharray="280.2 502.4"
+			stroke-dashoffset="-90" />
+	<text x="95" y="115" font-family="TTNorms" font-size="40" font-weight="700"
+		  text-anchor="middle" fill="#444">
+		51%
+	</text>
+</svg>
